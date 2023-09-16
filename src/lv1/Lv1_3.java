@@ -12,7 +12,7 @@ public class Lv1_3 {
 //        return answer;
 
         // if문 사용 - 통과 (0.02ms, 72.3MB)
-        String answer = "";
+        String answer;
         if(num % 2 == 0) {
             answer = "Even";
         } else {
