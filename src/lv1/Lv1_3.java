@@ -14,10 +14,10 @@ public class Lv1_3 {
         // if문 사용 - 통과 (0.02ms, 72.3MB)
         String answer = "";
         if(num % 2 == 0) {
-            return answer = "Even";
+            answer = "Even";
         } else {
-            return answer = "Odd";
+            answer = "Odd";
         }
-
+        return answer;
     }
 }
