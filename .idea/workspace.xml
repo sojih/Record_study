@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.21 연결 확인">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.22 모듈 import, 코테">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/src/lv1/Lv1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java-CodingTest/src/lv1/Lv1_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/record_study/lv1/Lv1_9.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,34 +70,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/itStudy/Record_study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/itStudy/Record_study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\itStudy" />
       <recent name="D:\itStudy\record_study\NodeJs" />
       <recent name="D:\itStudy\record_study\Java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\itStudy\Record_study" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Lv1_11">
+  <component name="RunManager" selected="Application.bg7_1">
     <configuration name="Lv1_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv1.Lv1_10" />
       <module name="record_study" />
@@ -123,19 +117,6 @@
     <configuration name="Lv1_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv1.Lv1_11" />
       <module name="Record_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lv1_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_7" />
-      <module name="record_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lv1.*" />
@@ -172,13 +153,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bg7_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg1.bg7_1" />
+      <module name="Record_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bg7_1" />
         <item itemvalue="Application.Lv1_11" />
         <item itemvalue="Application.Lv1_10" />
         <item itemvalue="Application.Lv1_9" />
         <item itemvalue="Application.Lv1_8" />
-        <item itemvalue="Application.Lv1_7" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +198,8 @@
       <workItem from="1695293506236" duration="1102000" />
       <workItem from="1695294625970" duration="516000" />
       <workItem from="1695389543416" duration="88000" />
-      <workItem from="1695391827807" duration="2547000" />
+      <workItem from="1695391827807" duration="2827000" />
+      <workItem from="1695472724320" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -278,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695294467657</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="09.22 모듈 import, 코테">
+      <option name="closed" value="true" />
+      <created>1695394449230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695394449230</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +305,7 @@
     <MESSAGE value="09.18 코테" />
     <MESSAGE value="09.19 코테" />
     <MESSAGE value="09.21 연결 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.21 연결 확인" />
+    <MESSAGE value="09.22 모듈 import, 코테" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.22 모듈 import, 코테" />
   </component>
 </project>

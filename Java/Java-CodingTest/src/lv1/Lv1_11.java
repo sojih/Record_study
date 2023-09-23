@@ -28,6 +28,7 @@ public class Lv1_11 {
             // StringBuilder.append() or StringBuffer.append().
             // 그리고 후에 toString() 작업을 해야함
             // => String str = "";
+
             //  StringBuilder strBuilder = new StringBuilder(str);
             //  for(int i = 0; i<10; i++) {
             //    strBuilder.append(i);
@@ -39,7 +40,7 @@ public class Lv1_11 {
 //        answer = Long.parseLong(sortS);
 
         // 2. 배열로 받아 치환
-        // 2-1. Arrays 함수 사용해 순서 변경
+        // 2-1. Arrays 함수 사용해 순서 변경 - 통과 (0.42ms, 72MB), 통과 (0.43ms, 71.6MB)
         // 자릿수 구하기
         int num = (int)Math.log10(n) + 1;   // log10() : double을 리턴
 
