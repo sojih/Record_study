@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.22 모듈 import, 코테">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.23 코테(bg = 백준)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/src/lv1/Lv1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java-CodingTest/src/lv1/Lv1_11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,20 +97,7 @@
       <recent name="D:\itStudy\Record_study" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bg7_1">
-    <configuration name="Lv1_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_10" />
-      <module name="record_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lv1_14">
     <configuration name="Lv1_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv1.Lv1_11" />
       <module name="Record_study" />
@@ -127,9 +111,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lv1_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_8" />
-      <module name="record_study" />
+    <configuration name="Lv1_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_12" />
+      <module name="Record_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lv1.*" />
@@ -140,9 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lv1_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_9" />
-      <module name="record_study" />
+    <configuration name="Lv1_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_13" />
+      <module name="Record_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lv1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_14" />
+      <module name="Record_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lv1.*" />
@@ -168,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lv1_14" />
+        <item itemvalue="Application.Lv1_13" />
+        <item itemvalue="Application.Lv1_12" />
         <item itemvalue="Application.bg7_1" />
         <item itemvalue="Application.Lv1_11" />
-        <item itemvalue="Application.Lv1_10" />
-        <item itemvalue="Application.Lv1_9" />
-        <item itemvalue="Application.Lv1_8" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +196,8 @@
       <workItem from="1695294625970" duration="516000" />
       <workItem from="1695389543416" duration="88000" />
       <workItem from="1695391827807" duration="2827000" />
-      <workItem from="1695472724320" duration="1995000" />
+      <workItem from="1695472724320" duration="2053000" />
+      <workItem from="1695628142863" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -281,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695394449230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="09.23 코테(bg = 백준)">
+      <option name="closed" value="true" />
+      <created>1695474747045</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695474747045</updated>
+    </task>
+    <task id="LOCAL-00012" summary="09.23 코테(bg = 백준)">
+      <option name="closed" value="true" />
+      <created>1695474761933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695474761933</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +320,7 @@
     <MESSAGE value="09.19 코테" />
     <MESSAGE value="09.21 연결 확인" />
     <MESSAGE value="09.22 모듈 import, 코테" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.22 모듈 import, 코테" />
+    <MESSAGE value="09.23 코테(bg = 백준)" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.23 코테(bg = 백준)" />
   </component>
 </project>
