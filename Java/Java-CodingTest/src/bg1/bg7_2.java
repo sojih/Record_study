@@ -3,8 +3,6 @@ import java.util.Scanner;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.LinkedList;
-import java.util.Queue;
 
 // 09.26 2차원배열 - 2. 최댓값
 // 0 ~ 90 범위에서 81개의 정수가 주어질 때(9행 9열)

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.25 코테">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.26 코테 - 백준">
+      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/src/bg1/bg7_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java-CodingTest/src/bg1/bg7_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +198,7 @@
       <workItem from="1695391827807" duration="2827000" />
       <workItem from="1695472724320" duration="2053000" />
       <workItem from="1695628142863" duration="4152000" />
-      <workItem from="1695724971909" duration="5866000" />
+      <workItem from="1695724971909" duration="5913000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -304,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695632688590</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="09.26 코테 - 백준">
+      <option name="closed" value="true" />
+      <created>1695730919670</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695730919670</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +339,7 @@
     <MESSAGE value="09.22 모듈 import, 코테" />
     <MESSAGE value="09.23 코테(bg = 백준)" />
     <MESSAGE value="09.25 코테" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.25 코테" />
+    <MESSAGE value="09.26 코테 - 백준" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.26 코테 - 백준" />
   </component>
 </project>
