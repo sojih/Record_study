@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.26 코테 - 백준">
-      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/src/bg1/bg7_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java-CodingTest/src/bg1/bg7_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +97,9 @@
       <recent name="D:\itStudy\Record_study" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bg7_4">
-    <configuration name="Lv1_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_13" />
+  <component name="RunManager" selected="Application.bg10_1">
+    <configuration name="Lv1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_14" />
       <module name="Record_study" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lv1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_14" />
+    <configuration name="bg10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg1.bg10_1" />
       <module name="Record_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv1.*" />
+          <option name="PATTERN" value="bg1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bg10_1" />
         <item itemvalue="Application.bg7_4" />
         <item itemvalue="Application.bg7_3" />
         <item itemvalue="Application.bg7_2" />
         <item itemvalue="Application.Lv1_14" />
-        <item itemvalue="Application.Lv1_13" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,8 @@
       <workItem from="1695391827807" duration="2827000" />
       <workItem from="1695472724320" duration="2053000" />
       <workItem from="1695628142863" duration="4152000" />
-      <workItem from="1695724971909" duration="5913000" />
+      <workItem from="1695724971909" duration="5962000" />
+      <workItem from="1695823687851" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -312,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695730919670</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="09.26 코테 - 백준">
+      <option name="closed" value="true" />
+      <created>1695730947370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695730947370</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
