@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="538e8ba4-68ab-48f4-b4d5-d709965a6b30" name="Changes" comment="09.27 .gitignore 파일 업데이트&#10;workspace.xml 업로드 막기">
-      <change beforePath="$PROJECT_DIR$/Java/Java-CodingTest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Java-CodingTest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +97,9 @@
       <recent name="D:\itStudy\Record_study" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bg10_1">
-    <configuration name="Lv1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_14" />
+  <component name="RunManager" selected="Application.Lv1_15">
+    <configuration name="Lv1_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.Lv1_15" />
       <module name="Record_study" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lv1_15" />
         <item itemvalue="Application.bg10_1" />
         <item itemvalue="Application.bg7_4" />
         <item itemvalue="Application.bg7_3" />
         <item itemvalue="Application.bg7_2" />
-        <item itemvalue="Application.Lv1_14" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1695472724320" duration="2053000" />
       <workItem from="1695628142863" duration="4152000" />
       <workItem from="1695724971909" duration="5962000" />
-      <workItem from="1695823687851" duration="1558000" />
+      <workItem from="1695823687851" duration="1685000" />
+      <workItem from="1695911638994" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -337,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695825211586</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="09.27 .gitignore 파일 업데이트&#10;workspace.xml 업로드 막기">
+      <option name="closed" value="true" />
+      <created>1695825269541</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695825269541</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
