@@ -1,14 +1,14 @@
 package lv1;
 
 import java.util.Arrays;
-// 틀림! 왜 틀리는거지?
+// 틀림! 왜 틀리는거지? - 최솟값을 교체하는 작업을 안해서...
 
 // 10.09 제일 작은 수 제거하기
 // 주어진 정수배열 arr에서 가장 작은 수를 제거한 배열을 리턴하는 함수
 // (단, 리턴하려는 배열이 빈 배열일 경우 배열에 -1을 채워 리턴, 중복된 수 없음)
 public class Lv1_20 {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,1};
+        int[] arr = {5,3,1,6,2};
         System.out.println(Arrays.toString(solution(arr)));
     }
     // 배열의 순서는 일정하지만 가장 작은 수만 제거되어야함
@@ -19,14 +19,17 @@ public class Lv1_20 {
         if(length == 1) {
             return new int[] {-1};
         }
+
         int s = arr[0];
         int index = 0;
-        // 최솟값 인덱스 찾기
+        // 최솟값 인덱스 찾기 - 통과 (1.50ms, 100MB), 통과 (0.05ms, 72.8MB)
         for(int i = 0; i < length; i++) {
-            if(arr[i] < s) {
+            if(arr[i] <= s) {
                 index = i;
+                s = arr[i];
             }
         }
+        System.out.println("확인용 index = " + index);
 
         // 최솟값 인덱스 찾기 - Arrays 함수 사용
 //        int index = Arrays.binarySearch(arr, '최솟값');
@@ -36,7 +39,7 @@ public class Lv1_20 {
         for(int i = 0; i < length - 1; i++) {
             if(i < index) {
                 answer[i] = arr[i];
-            } else if (i > index) {
+            } else {
                 answer[i] = arr[i + 1];
             }
         }
