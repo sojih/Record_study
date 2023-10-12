@@ -48,3 +48,6 @@ public class bg10_5 {
         System.out.println(area);
     }
 }
+
+// 다른 사람의 풀이
+// 점의 x,y 좌표를 각각 모두 저장한 후 정렬해서 값을 사용 => 소요시간이 크게 차이나지 않음
