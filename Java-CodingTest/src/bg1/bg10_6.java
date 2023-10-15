@@ -33,4 +33,4 @@ public class bg10_6 {
     }
 }
 
-// 2. Queue 사용
+// 2. Queue 사용 => 코드상 효율은 없을 듯
