@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 // 09.30 음양 더하기
 // 정수 배열 absolutes와 부호 배열 signs(둘다 길이 1000이하) => 실제 합 구하기

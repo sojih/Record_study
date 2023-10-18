@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 import java.util.Arrays;
 import java.util.LinkedList;

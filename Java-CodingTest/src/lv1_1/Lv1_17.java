@@ -1,8 +1,6 @@
-package lv1;
+package lv1_1;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 // 10.02 - 나누어 떨어지는 숫자 배열

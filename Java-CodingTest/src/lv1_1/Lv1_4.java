@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 // 자릿수 더하기
 public class Lv1_4 {

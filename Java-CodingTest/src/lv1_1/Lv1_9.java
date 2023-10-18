@@ -1,8 +1,4 @@
-package lv1;
-
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+package lv1_1;
 
 // 문자열 내 p와 y의 개수
 // - 대소문자가 섞여있는 문자열 s에 'p'와 'y' 갯수를 비교해 같으면 True, 다르면 False를 리턴

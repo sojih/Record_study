@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 // 짝수와 홀수
 public class Lv1_3 {

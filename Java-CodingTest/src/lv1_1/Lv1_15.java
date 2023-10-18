@@ -1,9 +1,8 @@
-package lv1;
+package lv1_1;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 
 // 09.28 서울에서 김서방 찾기
 // - seoul이라는 String[] 에서 "Kim"의 위치를 출력하기

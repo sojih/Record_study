@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 import java.util.Arrays;
 // 틀림! 왜 틀리는거지? - 최솟값을 교체하는 작업을 안해서...

@@ -1,4 +1,4 @@
-package lv1;
+package lv1_1;
 
 // 문자열을 정수로 바꾸기 - 문자열 s를 숫자로 return
 public class Lv1_8 {
