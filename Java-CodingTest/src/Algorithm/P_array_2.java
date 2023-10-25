@@ -29,9 +29,16 @@ public class P_array_2 {
         // => 6, 60, 601, 602
 
         // 두 수를 붙혔을 때 더 크게 나오는 경우로 채택하기
-        String[] temp = new String[numbers.length];
+        // int -> String 방법 1. Integer.toString(int) 2. Integer.valueOf(int) 3. int + ""
+        int num = numbers.length;
+        String[] temp = new String[num];
+        for(int i = 0; i < num; i++) {
+            temp[i] = Integer.toString(numbers[i]);
+        }
 
-
+        Arrays.sort(temp, Collections.reverseOrder());
+        for(String e : temp) {
+        }
 
         return answer;
     }
