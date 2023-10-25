@@ -1,7 +1,6 @@
 package Algorithm;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 // 10.24 프로그래머스 고난이도 - 배열 2. 가장 큰 수
@@ -9,7 +8,7 @@ import java.util.Collections;
 // 주어지는 배열 길이는 1이상 100,000이하, 원소는 0이상 1,000이하, 정답이 클 수 있으니 String타입으로 리턴
 public class P_array_2 {
     public static void main(String[] args) {
-        int[] numbers = {6, 10, 2};
+        int[] numbers = {3, 30, 34, 5, 9};
         P_array_2 p = new P_array_2();
         System.out.println(p.solution(numbers));
     }
@@ -23,10 +22,6 @@ public class P_array_2 {
 
         // 이거말고 나오는 경우의 수를 다 만든 다음 가장 높은 수를 리턴?
         // => 그러면 반복문을 돌리기가.. 모든 경우의 수 돌리기 => 너무 오래걸릴 듯
-//        String[] arr = {"60", "6", "601", "602"};
-//        Arrays.sort(arr);
-//        answer = arr[0] + ", " + arr[1] + ", " + arr[2] + ", " + arr[3];
-        // => 6, 60, 601, 602
 
         // 두 수를 붙혔을 때 더 크게 나오는 경우로 채택하기
         // int -> String 방법 1. Integer.toString(int) 2. Integer.valueOf(int) 3. int + ""
@@ -35,10 +30,17 @@ public class P_array_2 {
         for(int i = 0; i < num; i++) {
             temp[i] = Integer.toString(numbers[i]);
         }
-
         Arrays.sort(temp, Collections.reverseOrder());
-        for(String e : temp) {
+
+        if(temp[0] == "0") {
+            return "0";
         }
+
+        StringBuilder sb = new StringBuilder();
+        for(String e : temp) {
+            sb.append(e);
+        }
+        answer = sb.toString();
 
         return answer;
     }
