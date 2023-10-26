@@ -8,7 +8,8 @@ import java.util.Collections;
 // 주어지는 배열 길이는 1이상 100,000이하, 원소는 0이상 1,000이하, 정답이 클 수 있으니 String타입으로 리턴
 public class P_array_2 {
     public static void main(String[] args) {
-        int[] numbers = {3, 30, 34, 5, 9};
+//        int[] numbers = {3, 30, 34, 5, 9};
+        int[] numbers = {0, 0, 0};
         P_array_2 p = new P_array_2();
         System.out.println(p.solution(numbers));
     }
@@ -30,9 +31,9 @@ public class P_array_2 {
         for(int i = 0; i < num; i++) {
             temp[i] = Integer.toString(numbers[i]);
         }
-        Arrays.sort(temp, Collections.reverseOrder());
+        Arrays.sort(temp, ((o1, o2) -> (o2 + o1).compareTo(o1 + o2)));
 
-        if(temp[0] == "0") {
+        if(temp[0].equals("0")) {
             return "0";
         }
 
@@ -45,3 +46,9 @@ public class P_array_2 {
         return answer;
     }
 }
+
+/*
+
+
+
+ */
