@@ -31,8 +31,11 @@ public class P_array_2 {
         for(int i = 0; i < num; i++) {
             temp[i] = Integer.toString(numbers[i]);
         }
+
+        // 정렬 방식 - 두 값을 붙혔을 때 더 크게 나오는 순으로 정렬
         Arrays.sort(temp, ((o1, o2) -> (o2 + o1).compareTo(o1 + o2)));
 
+        // String 값이기 때문에 == 으로 판별이 제대로 되지 않음!
         if(temp[0].equals("0")) {
             return "0";
         }
